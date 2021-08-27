@@ -1,0 +1,134 @@
+.complete{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 233, 233);
+    margin-top: 5rem;
+    box-shadow: 10px 10px rgba(70, 217, 236, 0.2),15px 15px rgba(21, 180, 219, 0.2);
+    
+   
+}
+
+
+.image{
+    display: flex;
+    /* border: 1px solid rgb(21, 255, 0); */
+    margin-top: 20px;
+}
+
+.picture{
+    width: 80%;
+    border-radius: 40px;
+    /* border: 1px solid red; */
+}
+.picture-p{
+    align-content: center;
+    /* border: 1px solid blue; */
+    margin-top: 1.3rem;
+    width: 350px;
+    text-align: center;
+    /* margin-left: 30px; */
+}
+
+.email{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.email-logo{
+    width: 24%;
+    margin-left: 10px;
+    align-content: center;
+    margin-top: 3px;
+    justify-content: space-between;
+}
+
+.par{
+    margin-right: 15px;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+    width: 250px;
+    text-align: center;
+}
+
+.par1{
+    margin-right: 50px;
+    
+
+}
+
+.par2{
+    margin-right: -3px;
+    align-items: center; 
+    /* border: 1px solid red; */
+    width: 300px;
+    margin-top: 15px;
+    text-align: start;
+}
+.par3{
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    width: 120px;
+    text-align: start;
+    
+}
+.phone{
+    display: flex;
+    /* border: 1px solid yellow; */
+    margin-top: 20px;
+    /* justify-content: flex-start; */
+    align-items: center; 
+}
+
+.phone-logo{
+    width: 17%;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.country{
+    display: flex;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    align-items: center; 
+}
+
+.country-logo{
+    width: 16%;
+    margin-left: 10px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.age,
+.date{
+    text-align: center;
+}
+
+.button{
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: none;
+    background-color: rgb(21, 233, 233) ;
+    height: 40px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(21, 233, 233);
+    color: black;
+    opacity: 0.6;
+    
+ }  
+
+
+
